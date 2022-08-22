@@ -12,3 +12,10 @@ ja:
   create: "作成"
   update: "アップデート"
   check: "確定"
+  helpers:
+    select:
+      prompt: 選択してください
+    submit:
+      create: 登録
+      submit: 保存
+      update: 更新
