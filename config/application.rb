@@ -13,7 +13,7 @@ module BooksApp
 
     I18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
     I18n.config.available_locales = [:en, :ja]
-    I18n.default_locale = :en
+    I18n.default_locale = :ja
 
     # Configuration for the application, engines, and railties goes here.
     #

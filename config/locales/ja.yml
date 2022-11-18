@@ -1,20 +1,34 @@
 ja:
-  books: "ブックス"
-  greeting: "こんにちは。"
-  title: "タイトル"
-  memo: "メモ"
-  author: "著者"
-  picture: "画像"
-  new: "新規作成"
-  show: "表示"
-  edit: "編集"
-  destroy: "削除"
-  new_book: "新規登録"
-  edit_book: "ブックの編集"
-  back: "戻る"
-  create: "作成"
-  update: "アップデート"
-  check: "確定"
+  books:
+    index:
+      app-name: "ブックス"
+      title: "タイトル"
+      memo: "メモ"
+      author: "著者"
+      picture: "画像"
+      new-book: "新規登録"
+      show: "表示"
+      edit: "編集"
+      destroy: "削除"
+    show:
+      title: "タイトル"
+      memo: "メモ"
+      author: "著者"
+      picture: "画像"
+      edit: "編集"
+      back: "戻る"
+    new:
+      new-book: "新規登録"
+      back: "戻る"
+    form:
+      title: "タイトル"
+      memo: "メモ"
+      author: "著者"
+      picture: "画像"
+    edit:
+      edit-book: "本の編集"
+      back: "戻る"
+      show: "表示"
   helpers:
     select:
       prompt: ファイルを選択

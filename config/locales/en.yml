@@ -1,24 +1,38 @@
 en:
-  books: "Books"
-  greeting: "Hello."
-  title: "Title"
-  memo: "Memo"
-  author: "Author"
-  picture: "Picture"
-  new: "New Book"
-  show: "Show"
-  edit: "Edit"
-  destroy: "Delete"
-  new_book: "New"
-  edit_book: "Editting Book"
-  back: "Back"
-  create: "Create"
-  update: "Update"
-  check: "Check"
+  books:
+    index:
+      app-name: "BOOKS"
+      title: "title"
+      memo: "memo"
+      author: "author"
+      picture: "picture"
+      new-book: "NEW BOOK"
+      show: "show"
+      edit: "edit"
+      destroy: "delete"
+    show:
+      title: "title"
+      memo: "memo"
+      author: "author"
+      picture: "picture"
+      edit: "edit"
+      back: "back"
+    new:
+      new-book: "NEW BOOK"
+      back: "back"
+    form:
+      title: "title"
+      memo: "memo"
+      author: "author"
+      picture: "picture"
+    edit:
+      edit-book: "EDIT BOOK"
+      back: "back"
+      show: "show"
   helpers:
     select:
-      prompt: Select file
+      prompt: ファイルを選択
     submit:
-      create: Create
-      submit: Subimit
-      update: Update
+      create: create
+      submit: submit
+      update: update
