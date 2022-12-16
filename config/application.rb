@@ -11,7 +11,6 @@ module BooksApp
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 
-    I18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
     I18n.config.available_locales = [:en, :ja]
     I18n.default_locale = :ja
 
