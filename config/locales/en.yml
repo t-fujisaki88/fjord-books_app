@@ -1,38 +1,33 @@
 en:
+  activerecord:
+    models:
+      book: Books
+    attributes:
+      book: 
+        title: "Title"
+        memo: "Memo"
+        author: "Author"
+        picture: "Picture"
+        
   books:
     index:
-      app-name: "BOOKS"
-      title: "title"
-      memo: "memo"
-      author: "author"
-      picture: "picture"
-      new-book: "NEW BOOK"
-      show: "show"
-      edit: "edit"
-      destroy: "delete"
+      new-book: "New Book"
+      show: "Show"
+      edit: "Edit"
+      destroy: "Delete"
     show:
-      title: "title"
-      memo: "memo"
-      author: "author"
-      picture: "picture"
       edit: "edit"
-      back: "back"
+      back: "Back"
     new:
-      new-book: "NEW BOOK"
-      back: "back"
+      new-book: "New Book"
+      back: "Back"
     form:
-      title: "title"
-      memo: "memo"
-      author: "author"
-      picture: "picture"
     edit:
-      edit-book: "EDIT BOOK"
-      back: "back"
-      show: "show"
+      edit-book: "Edit Book"
+      back: "Back"
+      show: "Show"
   helpers:
-    select:
-      prompt: ファイルを選択
     submit:
-      create: create
-      submit: submit
+      create: Create
+      submit: Submit
       update: update

@@ -1,37 +1,32 @@
 ja:
+  activerecord:
+    models:
+      book: ブックス
+    attributes:
+      book: 
+        title: "タイトル"
+        memo: "メモ"
+        author: "著者"
+        picture: "画像"
+        
   books:
     index:
-      app-name: "ブックス"
-      title: "タイトル"
-      memo: "メモ"
-      author: "著者"
-      picture: "画像"
       new-book: "新規登録"
       show: "表示"
       edit: "編集"
       destroy: "削除"
     show:
-      title: "タイトル"
-      memo: "メモ"
-      author: "著者"
-      picture: "画像"
       edit: "編集"
       back: "戻る"
     new:
       new-book: "新規登録"
       back: "戻る"
     form:
-      title: "タイトル"
-      memo: "メモ"
-      author: "著者"
-      picture: "画像"
     edit:
       edit-book: "本の編集"
       back: "戻る"
       show: "表示"
   helpers:
-    select:
-      prompt: ファイルを選択
     submit:
       create: 登録
       submit: 保存
