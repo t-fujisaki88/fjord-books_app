@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   protected
 
   # deviseで使われているstrong_parameterを上書き
-  def configure_permitted_parameters 
-    devise_parameter_sanitizer.permit(:sign_up, keys: [:post_num, :address, :introduce])
+  def configure_permitted_parameters
+    devise_parameter_sanitizer.permit(:sign_up, keys: %i[post_num address introduce])
   end
 end
