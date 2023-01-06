@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get '/users', to: 'users#index'
 
   devise_for :users
+  root 'books#index'
   
   resources :books
   resources :users, only: %i[index, show]
