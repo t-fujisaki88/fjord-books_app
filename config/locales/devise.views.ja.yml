@@ -17,7 +17,6 @@ ja:
         locked_at: ロック時刻
         password: パスワード
         password_confirmation: パスワード（確認用）
-        password_forgot: パスワードを忘れた方
         remember_created_at: ログイン記憶時刻
         remember_me: ログインを記憶する
         reset_password_sent_at: パスワードリセット送信時刻
@@ -26,6 +25,9 @@ ja:
         unconfirmed_email: 未確認Eメール
         unlock_token: ロック解除用トークン
         updated_at: 更新日
+        post_num: 郵便番号
+        address: 住所
+        introduce: 自己紹介文
     models:
       user: ユーザー
   devise:
@@ -114,6 +116,7 @@ ja:
       already_signed_out: 既にログアウト済みです。
       new:
         sign_in: ログイン
+        forgot_your_password: パスワードお忘れの方
       signed_in: ログインしました。
       signed_out: ログアウトしました。
     shared:

@@ -7,7 +7,7 @@
   </div>
 
   <div class="field">
-    <%= link_to User.human_attribute_name(:password_forgot), new_user_password_path %>
+    <%= link_to t('.forgot_your_password'), new_user_password_path %>
     <%= f.label :password %><br />
     <%= f.password_field :password, autocomplete: "current-password" %>
   </div>
@@ -20,7 +20,7 @@
   <% end %>
 
   <div class="actions">
-    <%= f.submit "Log in" %>
+    <%= f.submit t('.sign_in') %>
   </div>
 <% end %>
 

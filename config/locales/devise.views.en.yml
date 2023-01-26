@@ -17,7 +17,6 @@ en:
         locked_at: Locked at
         password: Password
         password_confirmation: Password confirmation
-        password_forgot: forgot password?
         remember_created_at: Remember created at
         remember_me: Remember me
         reset_password_sent_at: Reset password sent at
@@ -26,6 +25,9 @@ en:
         unconfirmed_email: Unconfirmed email
         unlock_token: Unlock token
         updated_at: Updated at
+        ost_num: Post number
+        address: address
+        introduce: introduce
     models:
       user:
         one: User
@@ -116,6 +118,7 @@ en:
       already_signed_out: Signed out successfully.
       new:
         sign_in: Log in
+        forgot_your_password: Forgot your password?
       signed_in: Signed in successfully.
       signed_out: Signed out successfully.
     shared:
