@@ -1,6 +1,5 @@
 <p id="notice"><%= notice %></p>
 
-<<<<<<< HEAD
 <ul>
 <% if user_signed_in? %>
   <li><%= link_to "ユーザ情報変更", edit_user_registration_path %></li>
@@ -10,11 +9,9 @@
   <li><%= link_to "ログイン", new_user_session_path %></li>
 <% end %>
 </ul>
-=======
-<h1><%= Book.model_name.human %></h1>
->>>>>>> 04-user_page
 
-<h1>Books</h1>
+<h1><%= Book.model_name.human %></h1>
+
 <table>
   <thead>
     <tr>
@@ -35,7 +32,6 @@
         <td><%= link_to t('views.common.show'), book %></td>
         <td><%= link_to t('views.common.edit'), edit_book_path(book) %></td>
         <td><%= link_to t('views.common.destroy'), book, method: :delete, data: { confirm: t('views.common.delete_confirm') } %></td>
->>>>>>> 04-user_page
       </tr>
     <% end %>
   </tbody>
@@ -46,4 +42,3 @@
 <br>
 
 <%= link_to t('views.common.new'), new_book_path %>
->>>>>>> 04-user_page
