@@ -82,6 +82,7 @@ en:
       success: Successfully authenticated from %{kind} account.
     passwords:
       edit:
+        password_within: charcters minimum
         change_my_password: Change my password
         change_your_password: Change your password
         confirm_new_password: Confirm new password

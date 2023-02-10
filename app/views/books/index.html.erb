@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %></p>
 
+<<<<<<< HEAD
 <ul>
 <% if user_signed_in? %>
   <li><%= link_to "ユーザ情報変更", edit_user_registration_path %></li>
@@ -9,6 +10,9 @@
   <li><%= link_to "ログイン", new_user_session_path %></li>
 <% end %>
 </ul>
+=======
+<h1><%= Book.model_name.human %></h1>
+>>>>>>> 04-user_page
 
 <h1>Books</h1>
 <table>
@@ -28,13 +32,18 @@
         <td><%= book.memo %></td>
         <td><%= book.author %></td>
         <td><%= book.picture %></td>
-        <td><%= link_to t('.show'), book %></td>
-        <td><%= link_to t('.edit'), edit_book_path(book) %></td>
-        <td><%= link_to t('.destroy'), book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to t('views.common.show'), book %></td>
+        <td><%= link_to t('views.common.edit'), edit_book_path(book) %></td>
+        <td><%= link_to t('views.common.destroy'), book, method: :delete, data: { confirm: t('views.common.delete_confirm') } %></td>
+>>>>>>> 04-user_page
       </tr>
     <% end %>
   </tbody>
 </table>
+
+<%= paginate @books %>
+
 <br>
 
-<%= link_to t('.new-book'), new_book_path %>
+<%= link_to t('views.common.new'), new_book_path %>
+>>>>>>> 04-user_page
