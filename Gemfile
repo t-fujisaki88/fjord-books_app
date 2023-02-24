@@ -62,7 +62,6 @@ gem 'net-smtp'
 
 gem 'carrierwave'
 
-
 gem 'devise'
 gem 'kaminari'
 
@@ -71,4 +70,3 @@ group :development do
 end
 
 gem 'devise-i18n'
-

@@ -208,6 +208,7 @@ ja:
     common:
       show: 詳細
       edit: 編集
+      update: 更新
       destroy: 削除
       new: 新規作成
       back: 戻る

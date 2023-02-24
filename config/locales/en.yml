@@ -216,6 +216,7 @@ en:
     common:
       show: Show
       edit: Edit
+      update: update
       destroy: Destroy
       new: "New record"
       back: Back
