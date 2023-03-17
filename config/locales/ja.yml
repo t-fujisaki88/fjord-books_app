@@ -1,13 +1,13 @@
 ja:
   activerecord:
     models:
-      book: ブックス  #g
+      book: ブックス
     attributes:
       book:
-        author: 著者  #g
-        memo: メモ  #g
-        picture: 画像  #g
-        title: 題名  #g
+        author: 著者
+        memo: メモ
+        picture: 画像
+        title: 題名
     errors:
       messages:
         record_invalid: 'バリデーションに失敗しました: %{errors}'
@@ -239,12 +239,12 @@ ja:
         notice_create: "%{name}が作成されました。"
         notice_update: "%{name}が更新されました。"
         notice_destroy: "%{name}が削除されました。"
-  books:
-    menu:
-        user_info: ユーザ情報変更
-        log_out: ログアウト
-        log_in: ログイン
-        sign_up: 新規登録
+  layouts:
+    application:
+      user_info: ユーザ情報変更
+      log_out: ログアウト
+      log_in: ログイン
+      sign_up: 新規登録
   devise:
     confirmations:
       confirmed: メールアドレスが確認できました。
