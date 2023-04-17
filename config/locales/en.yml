@@ -224,6 +224,7 @@ en:
       long: "%B %d, %Y %H:%M"
       short: "%d %b %H:%M"
     pm: pm
+
   views:
     common:
       show: Show
@@ -232,19 +233,15 @@ en:
       destroy: Destroy
       new: "New record"
       back: Back
+      send: send
       delete_confirm: "Are you sure?"
-      title_new: "New %{name}"
-      title_edit: "Editing %{name}"
-    user:
-      index:
-        user_list: user list
-      show:
-        user_detail: user detail
+      title_edit: "Edit user information"
+      char_within: "characters within"
     pagination:
-      first: '最初'
-      last: '最後'
-      previous: '前'
-      next: '次'
+      first: 'first'
+      last: 'last'
+      previous: 'prev'
+      next: 'next'
       truncate: '...'
     controllers:
       common:
@@ -257,21 +254,4 @@ en:
       log_out: log out
       log_in: log in
       sign_up: sign up
-  devise:
-    passwords:
-      edit:
-        change_password: "Change your password"
-        new_password: "New password"
-        confirm_password: "Confirm password"
-        password_within: "Charactor within"
-        change: "Change"
-      new:
-        send: "Sent"
-    registrations:
-      edit:
-        title: "User Profile Edit"
-        password_within: "charactors within"
-    sessions:
-      new:
-        sign_in: "Sign in"
-        forgot_your_password: "Reset password"
+  
