@@ -8,6 +8,10 @@ en:
         memo: Memo
         picture: Picture
         title: Title
+      user:
+        post_num: Post number
+        address: Mail address
+        introduce: Introduce
     errors:
       messages:
         record_invalid: 'Validation failed: %{errors}'
@@ -267,11 +271,6 @@ en:
       edit:
         title: "User Profile Edit"
         password_within: "charactors within"
-      new:
-        sign_up: "Sign up"
-        post_num: "Aost number"
-        address: "Address"
-        introduce: "Introduce"
     sessions:
       new:
         sign_in: "Sign in"

@@ -22,17 +22,17 @@
   </div>
 
   <div class="field">
-    <%= t('.post_num') %><br />
+    <%= User.human_attribute_name(:post_num) %><br />
     <%= f.text_field :post_num, autofocus: true %>
 
   </div>
    <div class="field">
-    <%= t('.address') %><br />
+    <%= User.human_attribute_name(:address) %><br />
     <%= f.text_field :address, autofocus: true %>
   </div>
 
    <div class="field">
-    <%= t('.introduce') %><br />
+    <%= User.human_attribute_name(:introduce) %><br />
     <%= f.text_field :introduce, autofocus: true %>
   </div>
 

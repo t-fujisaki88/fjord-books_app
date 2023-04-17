@@ -2,12 +2,17 @@ ja:
   activerecord:
     models:
       book: ブックス
+      user: ユーザ
     attributes:
       book:
         author: 著者
         memo: メモ
         picture: 画像
         title: 題名
+      user:
+        post_num: 郵便番号
+        address: メールアドレス
+        introduce: 自己紹介文
     errors:
       messages:
         record_invalid: 'バリデーションに失敗しました: %{errors}'
@@ -263,11 +268,6 @@ ja:
       edit:
         title: "ユーザ詳細変更"
         password_within: "字以内"
-      new:
-        sign_up: "登録"
-        post_num: "郵便番号"
-        address: "住所"
-        introduce: "自己紹介文"
     sessions:
       new:
         sign_in: "ログイン"
