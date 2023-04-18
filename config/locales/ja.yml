@@ -1,6 +1,18 @@
----
 ja:
   activerecord:
+    models:
+      book: ブックス
+      user: ユーザ
+    attributes:
+      book:
+        author: 著者
+        memo: メモ
+        picture: 画像
+        title: 題名
+      user:
+        post_num: 郵便番号
+        address: メールアドレス
+        introduce: 自己紹介文
     errors:
       messages:
         record_invalid: 'バリデーションに失敗しました: %{errors}'
@@ -130,9 +142,15 @@ ja:
       present: は入力しないでください
       required: を入力してください
       taken: はすでに存在します
-      too_long: は%{count}文字以内で入力してください
-      too_short: は%{count}文字以上で入力してください
-      wrong_length: は%{count}文字で入力してください
+      too_long: 
+        one: は%{count}文字以内で入力してください
+        other: は%{count}文字以内で入力してください
+      too_short:
+        one: は%{count}文字以上で入力してください
+        other: は%{count}文字以上で入力してください
+      wrong_length:
+        one: は%{count}文字で入力してください
+        other: は%{count}文字で入力してください
     template:
       body: 次の項目を確認してください
       header:
@@ -179,7 +197,9 @@ ja:
       storage_units:
         format: "%n%u"
         units:
-          byte: バイト
+          byte: 
+            one: バイト
+            other: バイト
           eb: EB
           gb: GB
           kb: KB
@@ -205,24 +225,33 @@ ja:
       long: "%Y/%m/%d %H:%M"
       short: "%m/%d %H:%M"
     pm: 午後
+    
   views:
     common:
       show: 詳細
       edit: 編集
+      update: 更新
       destroy: 削除
       new: 新規作成
       back: 戻る
+      send: 送信
       delete_confirm: よろしいですか？
-      title_new: "%{name}の新規作成"
-      title_edit: "%{name}の編集"
-    pagination:
-      first: '最初'
-      last: '最後'
-      previous: '前'
-      next: '次'
-      truncate: '...'
+      title_edit: "ユーザ情報の編集"
+      char_within: "字以内"
+  pagination:
+    first: '最初'
+    last: '最後'
+    previous: '前'
+    next: '次'
+    truncate: '...'
   controllers:
     common:
       notice_create: "%{name}が作成されました。"
       notice_update: "%{name}が更新されました。"
       notice_destroy: "%{name}が削除されました。"
+  layouts:
+    application:
+      user_info: "ユーザ情報変更"
+      log_out: "ログアウト"
+      log_in: "ログイン"
+      sign_up: "新規登録"

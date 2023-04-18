@@ -1,6 +1,17 @@
----
 en:
   activerecord:
+    models:
+      book: Book
+    attributes:
+      book:
+        author: Author
+        memo: Memo
+        picture: Picture
+        title: Title
+      user:
+        post_num: Post number
+        address: Mail address
+        introduce: Introduce
     errors:
       messages:
         record_invalid: 'Validation failed: %{errors}'
@@ -213,18 +224,34 @@ en:
       long: "%B %d, %Y %H:%M"
       short: "%d %b %H:%M"
     pm: pm
+
   views:
     common:
       show: Show
       edit: Edit
+      update: update
       destroy: Destroy
       new: "New record"
       back: Back
+      send: send
       delete_confirm: "Are you sure?"
-      title_new: "New %{name}"
-      title_edit: "Editing %{name}"
-  controllers:
-    common:
-      notice_create: "%{name} was successfully created."
-      notice_update: "%{name} was successfully updated."
-      notice_destroy: "%{name} was successfully destroyed."
+      title_edit: "Edit user information"
+      char_within: "characters within"
+    pagination:
+      first: 'first'
+      last: 'last'
+      previous: 'prev'
+      next: 'next'
+      truncate: '...'
+    controllers:
+      common:
+        notice_create: "%{name} was successfully created."
+        notice_update: "%{name} was successfully updated."
+        notice_destroy: "%{name} was successfully destroyed."
+  layouts:
+    application:
+      user_info: User information
+      log_out: log out
+      log_in: log in
+      sign_up: sign up
+  
